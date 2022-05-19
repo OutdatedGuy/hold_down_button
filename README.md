@@ -36,7 +36,7 @@ HoldDownButton(
 ),
 ```
 
-#### Customizing inital delay curve
+#### Customizing initial delay curve
 
 ```dart
 HoldDownButton(
