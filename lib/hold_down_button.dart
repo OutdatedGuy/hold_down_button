@@ -1,3 +1,15 @@
+/// A Flutter package to trigger an action repeatedly when a widget is hold/pressed down.
+///
+/// ### Usage
+/// ```dart
+/// HoldDownButton(
+///   onHoldDown: () => print('Pressed'),
+///   child: ElevatedButton(
+///     onPressed: () => print('Pressed'),
+///     child: const Text('ElevatedButton'),
+///   ),
+/// ),
+/// ```
 library hold_down_button;
 
 // Dart Packages
