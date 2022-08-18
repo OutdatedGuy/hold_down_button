@@ -1,6 +1,6 @@
 name: hold_down_button
 description: A Flutter package to trigger an action repeatedly when a widget is hold/pressed down.
-version: 0.0.1
+version: 1.0.0
 homepage: https://outdatedguy.rocks
 repository: https://github.com/OutdatedGuy/hold_down_button
 
