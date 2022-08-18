@@ -80,7 +80,7 @@ HoldDownButton(
 |    Field     |                        Description                        |    Type    |               Default               |
 | :----------: | :-------------------------------------------------------: | :--------: | :---------------------------------: |
 |   `child`    |           **The child widget to be displayed.**           |  _Widget_  |                  -                  |
-| `onHoldDown` | **The callback to be called when the button is pressed.** | _Function_ |                  -                  |
+| `onHoldDown` | **The callback to be called when the button is pressed.** | _VoidCallback_ |                  -                  |
 |  `holdWait`  |      **The time delay for periodic function call.**       | _Duration_ | `const Duration(milliseconds: 100)` |
 |  `longWait`  |             **Time delay 2nd function call.**             | _Duration_ | `const Duration(milliseconds: 500)` |
 | `middleWait` |             **Time delay 3rd function call.**             | _Duration_ | `const Duration(milliseconds: 350)` |
