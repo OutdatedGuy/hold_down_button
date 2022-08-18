@@ -1,4 +1,15 @@
-hold_down_button package helps you to convert any widget into a button which when long pressed will trigger an action repeatedly.
+# Hold Down Button
+
+A Flutter package to trigger an action repeatedly when a widget is hold/pressed down.
+
+[![pub package][package_svg]](https://pub.dev/packages/hold_down_button)
+[![GitHub][license_svg]](LICENSE)
+[![style: very good analysis][lints_svg]](https://pub.dev/packages/very_good_analysis)
+
+[![GitHub issues][issues_svg]](https://github.com/OutdatedGuy/hold_down_button/issues)
+[![GitHub issues closed][issues_closed_svg]](https://github.com/OutdatedGuy/hold_down_button/issues?q=is%3Aissue+is%3Aclosed)
+
+<hr />
 
 ## Features
 
@@ -74,3 +85,11 @@ HoldDownButton(
 |  `longWait`  |             **Time delay 2nd function call.**             | _Duration_ | `const Duration(milliseconds: 500)` |
 | `middleWait` |             **Time delay 3rd function call.**             | _Duration_ | `const Duration(milliseconds: 350)` |
 |  `minWait`   |             **Time delay 4th function call.**             | _Duration_ | `const Duration(milliseconds: 200)` |
+
+<!-- Badges URLs -->
+
+[package_svg]: https://img.shields.io/pub/v/hold_down_button.svg?color=blueviolet
+[license_svg]: https://img.shields.io/github/license/OutdatedGuy/hold_down_button.svg?color=purple
+[lints_svg]: https://img.shields.io/badge/style-very_good_analysis-B22C89.svg
+[issues_svg]: https://img.shields.io/github/issues/OutdatedGuy/hold_down_button.svg
+[issues_closed_svg]: https://img.shields.io/github/issues-closed/OutdatedGuy/hold_down_button.svg?color=green
