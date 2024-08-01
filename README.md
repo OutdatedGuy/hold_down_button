@@ -2,11 +2,11 @@
 
 A Flutter package to trigger an action repeatedly when a widget is hold/pressed down.
 
-[![pub package][package_svg]](https://pub.dev/packages/hold_down_button)
+[![pub package][package_svg]][package]
 [![GitHub][license_svg]](LICENSE)
 
-[![GitHub issues][issues_svg]](https://github.com/OutdatedGuy/hold_down_button/issues)
-[![GitHub issues closed][issues_closed_svg]](https://github.com/OutdatedGuy/hold_down_button/issues?q=is%3Aissue+is%3Aclosed)
+[![GitHub issues][issues_svg]][issues]
+[![GitHub issues closed][issues_closed_svg]][issues_closed]
 
 <hr />
 
@@ -76,14 +76,16 @@ HoldDownButton(
 
 ## Description
 
-|    Field     |                        Description                        |    Type    |               Default               |
-| :----------: | :-------------------------------------------------------: | :--------: | :---------------------------------: |
-|   `child`    |           **The child widget to be displayed.**           |  _Widget_  |                  -                  |
+|    Field     |                        Description                        |      Type      |               Default               |
+| :----------: | :-------------------------------------------------------: | :------------: | :---------------------------------: |
+|   `child`    |           **The child widget to be displayed.**           |    _Widget_    |                  -                  |
 | `onHoldDown` | **The callback to be called when the button is pressed.** | _VoidCallback_ |                  -                  |
-|  `holdWait`  |      **The time delay for periodic function call.**       | _Duration_ | `const Duration(milliseconds: 100)` |
-|  `longWait`  |             **Time delay 2nd function call.**             | _Duration_ | `const Duration(milliseconds: 500)` |
-| `middleWait` |             **Time delay 3rd function call.**             | _Duration_ | `const Duration(milliseconds: 350)` |
-|  `minWait`   |             **Time delay 4th function call.**             | _Duration_ | `const Duration(milliseconds: 200)` |
+|  `holdWait`  |      **The time delay for periodic function call.**       |   _Duration_   | `const Duration(milliseconds: 100)` |
+|  `longWait`  |             **Time delay 2nd function call.**             |   _Duration_   | `const Duration(milliseconds: 500)` |
+| `middleWait` |             **Time delay 3rd function call.**             |   _Duration_   | `const Duration(milliseconds: 350)` |
+|  `minWait`   |             **Time delay 4th function call.**             |   _Duration_   | `const Duration(milliseconds: 200)` |
+
+### If you liked the package, then please give it a [Like 👍🏼][package] and [Star ⭐][repository]
 
 <!-- Badges URLs -->
 
@@ -91,3 +93,10 @@ HoldDownButton(
 [license_svg]: https://img.shields.io/github/license/OutdatedGuy/hold_down_button.svg?color=purple
 [issues_svg]: https://img.shields.io/github/issues/OutdatedGuy/hold_down_button.svg
 [issues_closed_svg]: https://img.shields.io/github/issues-closed/OutdatedGuy/hold_down_button.svg?color=green
+
+<!-- Links -->
+
+[package]: https://pub.dev/packages/hold_down_button
+[repository]: https://github.com/OutdatedGuy/hold_down_button
+[issues]: https://github.com/OutdatedGuy/hold_down_button/issues
+[issues_closed]: https://github.com/OutdatedGuy/hold_down_button/issues?q=is%3Aissue+is%3Aclosed
