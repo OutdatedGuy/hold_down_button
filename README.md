@@ -23,7 +23,7 @@ A Flutter package to trigger an action repeatedly when a widget is hold/pressed 
 #### Add to Dependencies
 
 ```yaml
-hold_down_button: ^1.0.0
+hold_down_button: ^1.1.0
 ```
 
 #### Import the package
