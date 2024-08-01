@@ -1,3 +1,7 @@
+## 1.1.0
+
+- chore: updated package template and dependencies to Flutter 3.22
+
 ## 1.0.0
 
 - **BREAKING:** `onHoldDown` type changed to `VoidCallback`
