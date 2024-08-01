@@ -1,6 +1,6 @@
-# example
+# hold_down_button_example
 
-A new Flutter project.
+Demonstrates how to use the hold_down_button package.
 
 ## Getting Started
 

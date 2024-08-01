@@ -4,7 +4,6 @@ A Flutter package to trigger an action repeatedly when a widget is hold/pressed 
 
 [![pub package][package_svg]](https://pub.dev/packages/hold_down_button)
 [![GitHub][license_svg]](LICENSE)
-[![style: very good analysis][lints_svg]](https://pub.dev/packages/very_good_analysis)
 
 [![GitHub issues][issues_svg]](https://github.com/OutdatedGuy/hold_down_button/issues)
 [![GitHub issues closed][issues_closed_svg]](https://github.com/OutdatedGuy/hold_down_button/issues?q=is%3Aissue+is%3Aclosed)
@@ -90,6 +89,5 @@ HoldDownButton(
 
 [package_svg]: https://img.shields.io/pub/v/hold_down_button.svg?color=blueviolet
 [license_svg]: https://img.shields.io/github/license/OutdatedGuy/hold_down_button.svg?color=purple
-[lints_svg]: https://img.shields.io/badge/style-very_good_analysis-B22C89.svg
 [issues_svg]: https://img.shields.io/github/issues/OutdatedGuy/hold_down_button.svg
 [issues_closed_svg]: https://img.shields.io/github/issues-closed/OutdatedGuy/hold_down_button.svg?color=green
